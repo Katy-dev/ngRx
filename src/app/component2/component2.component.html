@@ -1,0 +1,14 @@
+<div class="wrap">
+  <h4>Component2</h4>
+<p>Count: {{count$ | async}}</p>
+<p>Message: {{message$ | async}}</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
+    <button (click)="getData()">Click me</button>
+    <p *ngIf="dataLoading$ | async">Loading...</p>
+  </div>
+  <div></div>
+</div>

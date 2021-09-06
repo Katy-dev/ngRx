@@ -1,0 +1,17 @@
+<div>
+  <h4>Component 1</h4>
+  <p>This button can increase count by one</p>
+  <button (click)="increaseCount()">Increase</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>You can write something here!</p>
+  <p>Message: </p>
+  <input
+         [(ngModel)]="message"
+         type="text">
+  <div>
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>
